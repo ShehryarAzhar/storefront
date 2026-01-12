@@ -1,0 +1,55 @@
+<svg
+    width="900"
+    height="300"
+    viewBox="0 0 900 300"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <defs>
+        <!-- Gradients -->
+        <linearGradient id="sheryGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#4facfe" />
+            <stop offset="100%" stop-color="#00f2fe" />
+        </linearGradient>
+
+        <linearGradient id="buyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f7971e" />
+            <stop offset="100%" stop-color="#ffd200" />
+        </linearGradient>
+    </defs>
+
+    <!-- Emoji logo -->
+    <text
+        x="450"
+        y="70"
+        text-anchor="middle"
+        font-size="60"
+    >
+        🛒
+    </text>
+
+    <!-- SHERY -->
+    <text
+        x="450"
+        y="160"
+        text-anchor="middle"
+        font-size="90"
+        font-weight="800"
+        letter-spacing="6"
+        fill="url(#sheryGradient)"
+    >
+        SHERY
+    </text>
+
+    <!-- BUY -->
+    <text
+        x="450"
+        y="260"
+        text-anchor="middle"
+        font-size="100"
+        font-weight="900"
+        letter-spacing="10"
+        fill="url(#buyGradient)"
+    >
+        BUY
+    </text>
+</svg>
